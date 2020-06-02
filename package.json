@@ -1,0 +1,22 @@
+{
+  "name": "mocky-coi",
+  "version": "1.0.0",
+  "description": "mock coienergyservices.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leptichaun72/mocky-coi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leptichaun72/mocky-coi/issues"
+  },
+  "homepage": "https://github.com/leptichaun72/mocky-coi#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
