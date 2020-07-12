@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const requestHandler = (req, res) => {
     //serve page under
-    fs.readFile('public/index.html', function(err, data) {
+    fs.readFile('public/beginner-react.html', function(err, data) {
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.write(data);
         res.end();

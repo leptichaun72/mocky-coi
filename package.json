@@ -4,7 +4,7 @@
   "description": "mock coienergyservices.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/leptichaun72/mocky-coi/issues"
   },
   "homepage": "https://github.com/leptichaun72/mocky-coi#readme",
-  "devDependencies": {
-    "express": "^4.17.1"
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
   }
 }
